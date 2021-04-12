@@ -68,21 +68,4 @@ public class Video implements Serializable {
      */
     private String videoImageUrl;
 
-
-
-    @Override
-    public String toString() {
-        return "VideoEntity{" +
-                "videoId=" + videoId +
-                ", describation=" + describation +
-                ", author=" + author +
-                ", authorId=" + authorId +
-                ", time=" + time +
-                ", commentId=" + commentId +
-                ", like=" + like +
-                ", favorites=" + favorites +
-                ", videoUrl=" + videoUrl +
-                ", videoImageUrl=" + videoImageUrl +
-                "}";
-    }
 }

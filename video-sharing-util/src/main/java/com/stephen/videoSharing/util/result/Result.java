@@ -41,6 +41,11 @@ public class Result<T> {
         this.msg = msg;
     }
 
+    public Result(Code code,T data) {
+        this.data = data;
+        this.code = code.getNum();
+        this.msg = code.getMsg();
+    }
 
     public Result(Code code){
         this.code = code.getNum();

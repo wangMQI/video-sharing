@@ -58,20 +58,5 @@ public class Admin implements Serializable {
      */
     private String adminAvatarUrl;
 
-
-
-    @Override
-    public String toString() {
-        return "AdminEntity{" +
-                "adminId=" + adminId +
-                ", name=" + name +
-                ", password=" + password +
-                ", email=" + email +
-                ", phone=" + phone +
-                ", status=" + status +
-                ", operate=" + operate +
-                ", adminAvatarUrl=" + adminAvatarUrl +
-                "}";
-    }
 }
 

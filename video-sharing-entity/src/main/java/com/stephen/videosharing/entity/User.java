@@ -60,17 +60,4 @@ public class User implements Serializable {
      */
     private String userAvatarUrl;
 
-    @Override
-    public String toString() {
-        return "UserEntity{" +
-                "uid=" + uid +
-                ", nikeName=" + nikeName +
-                ", phone=" + phone +
-                ", email=" + email +
-                ", videoId=" + videoId +
-                ", commentId=" + commentId +
-                ", status=" + status +
-                ", userAvatarUrl=" + userAvatarUrl +
-                "}";
-    }
 }

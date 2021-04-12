@@ -21,6 +21,7 @@
         <module>video-sharing-entity</module>
         <module>video-sharing-service</module>
         <module>video-sharing-util</module>
+        <module>video-sharing-exception</module>
     </modules>
     <dependencies>
         <dependency>
