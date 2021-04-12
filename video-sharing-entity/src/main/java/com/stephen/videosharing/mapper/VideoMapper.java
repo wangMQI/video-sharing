@@ -1,5 +1,8 @@
 package com.stephen.videosharing.mapper;
 
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.stephen.videosharing.entity.Video;
+
 /**
  * @program: video-sharing
  * @author: Stephen·Wang
@@ -7,5 +10,5 @@ package com.stephen.videosharing.mapper;
  * @Version:
  * @Description:
  */
-public interface VideoMapper {
+public interface VideoMapper extends BaseMapper<Video> {
 }
